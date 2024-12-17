@@ -21,7 +21,7 @@ scaler = joblib.load(SCALER_PATH)
 label_encoder = joblib.load(LABEL_ENCODER_PATH)
 
 # Streamlit App Interface
-st.title("Music Genre Classifier")
+st.title("Genre Genie")
 st.write("Enter the following feature values to predict the genre:")
 
 # Create input fields for each feature (8 in this case)
